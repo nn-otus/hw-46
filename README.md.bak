@@ -269,6 +269,8 @@ reply_time       | 2026-01-03 14:20:54.93578-03
 postgres=# 
     
 ```
+![Скриншот проверки репликации](pics/03_replication_check.png)
+
 + На реплике node2  
 ```
 postgres=# select * from pg_stat_wal_receiver \gx
@@ -292,7 +294,6 @@ conninfo              | user=replicator password=******** channel_binding=prefer
 postgres=# 
 
 ```
-![Скриншот проверки репликации](pics/03_replication_check.png)
 
 ##  Настройка Barman Backup  
 + Установка утилиты  

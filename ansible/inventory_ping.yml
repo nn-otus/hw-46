@@ -1,0 +1,6 @@
+---
+- hosts: servers
+  tasks:
+    - name: Ping web servers
+      ping:
+      register: ping_result
